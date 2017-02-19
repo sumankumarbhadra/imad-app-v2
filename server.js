@@ -70,9 +70,10 @@ var likecounter=0;
 	 likecounter=likecounter+1;
 	 res.send(likecounter.toString());
  });
- 
+ var count=0;
  app.get('/test',function(req,res){
   res.sendFile(path.join(__dirname, 'ui', 'test.html'));
+  count=count+1;
 });
  
 app.get('/articleone',function(req,res){
