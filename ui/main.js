@@ -28,9 +28,8 @@ request.open("GET","http://sumankumarbhadra.imad.hasura-ap/likes",true);
 request.send(null);
 };
 //counter code 
-var button = document.getElementById('counter');
-
-button.onclick=function(){
+ 
+{
 
 //create request by id
 var request = new XMLHttpRequest();
@@ -41,7 +40,7 @@ if(request.readyState==XMLHttpRequest.DONE){
 //Take some action
 if(request.State==200){
 	var counter = request.responceText;
-	var span = document.getElementById('count');
+	var span = document.getElementById('visiter');
 	span.innerHTML = counter.toString();
 	
 		}
@@ -50,7 +49,7 @@ if(request.State==200){
 };
 
 //Make request
-request.open('GET','',true);
+request.open('GET','http://sumankumarbhadra.imad.hasura-app.io/',true);
 request.send(null);
 };
 
