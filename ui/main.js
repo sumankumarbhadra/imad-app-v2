@@ -13,27 +13,28 @@ button.onclick=function(){
 
  */
 
-var button = document.getElementById('c');
-button.onclick = function(){
-//create request by id
-var request = new XMLHttpRequest();
+var button = document.getElementById("c");
 
-//capture the request and store in a variable
-request.onreadystatechange = function(){
-if(request.readyState===XMLHttpRequest.DONE){
-//Take some action
-if(request.state===200){
-	var count = request.responceText;
-	var span = document.getElementById('display');
-	span.innerHTML = count.toString();
-	
-		}
-	}
-	//Not the request
-};
-
-//Make request
-request.open('GET','http://sumankumarbhadra.imad.hasura-app.io/test',true);
-request.send(null);
+button.onclick = function() {
+    
+    // create a request object
+    var request = new XMLHttpRequest();
+    
+    // capture the response and store it in a variable
+    request.onreadystatechange = function() {
+      if (request.readyState === XMLHttpRequest.DONE) {
+          // take some action
+          if (request.status === 200) {
+              var counter = request.responseText;
+              var span = document.getElementById("display");
+              span.innerHTML = counter.toString();
+          }
+      }  
+      // not done yet
+    };
+    
+    // make the request
+    request.open('GET', 'http://sumankumarbhadra.imad.hasura-app.io/test', true);
+    request.send(null);
 };
 
