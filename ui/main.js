@@ -13,6 +13,8 @@ button.onclick=function(){
 
  */
 
+var button = document.getElementById('count');
+button.onclick = function(){
 //create request by id
 var request = new XMLHttpRequest();
 
@@ -33,5 +35,5 @@ if(request.state===200){
 //Make request
 request.open('GET','http://sumankumarbhadra.imad.hasura-app.io/test',true);
 request.send(null);
-
+};
 
