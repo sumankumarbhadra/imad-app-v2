@@ -86,6 +86,25 @@ app.get('/ui/suman1.jpg', function (req, res) {
 app.get('/ui/suman2.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'suman2.jpg'));
 });
+app.get('/ui/wapplogo.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'wapplogo.png'));
+});
+app.get('/ui/g+logo.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'g+logo.png'));
+});
+app.get('/ui/twitterlogo.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'twitterlogo.png'));
+});
+app.get('/ui/iglogo.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'iglogo.png'));
+});
+app.get('/ui/linkedin_icon.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'linkedin_icon.png'));
+});
+app.get('/ui/nptel-logo.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'nptel-logo.png'));
+});
+
 
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
