@@ -62,10 +62,10 @@ function createTemplate(data){
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
- var count1=0;
+ var counter=0;
  app.get('/counter',function(req,res){
-	 count1=count1+1;
-	 res.send(count1.tostring());
+	 counter=counter+1;
+	 res.send(counter.tostring());
  });
 
 app.get('/articleone',function(req,res){
