@@ -25,7 +25,7 @@ if(request.State==200){
 
 //Make request
 request.open('GET','http://sumankumarbhadra.imad.hasura-ap/likes',true);
-request.send(null);
+request.send();
 };
 //counter code 
 var button = document.getElementById('counter');
