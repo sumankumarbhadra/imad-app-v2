@@ -13,7 +13,7 @@ button.onclick=function(){
 
  */
 
-var button = document.getElementById('count');
+var button = document.getElementById('c');
 button.onclick = function(){
 //create request by id
 var request = new XMLHttpRequest();
