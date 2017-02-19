@@ -51,6 +51,6 @@ if(request.State==200){
 };
 
 //Make request
-request.open('GET','',true);
+request.open('GET','http://sumankumarbhadra.imad.hasura-app.io/likes',true);
 request.send(null);
 };
