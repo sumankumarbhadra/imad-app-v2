@@ -34,7 +34,7 @@ button.onclick = function() {
     };
     
     // make the request
-    request.open('GET', 'http://sumankumarbhadra.imad.hasura-app.io/test', true);
+    request.open('GET', 'http://sumankumarbhadra.imad.hasura-app.io/likes', true);
     request.send(null);
 };
 
