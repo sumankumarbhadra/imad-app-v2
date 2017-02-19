@@ -11,9 +11,9 @@ var request = new XMLHttpRequest();
 
 //capture the request and store in a variable
 request.onreadystatechange = function(){
-if(request.readystate===XMLHttpRequest.DONE){
+if(request.readyState===XMLHttpRequest.DONE){
 //Take some action
-if(request.tate===200){
+if(request.state===200){
 	var likecounter = request.responceText;
 	var span = document.getElementById('likes');
 	span.innerHTML = likecounter.toString();
@@ -36,7 +36,7 @@ var request = new XMLHttpRequest();
 
 //capture the request and store in a variable
 request.onreadystatechange = function(){
-if(request.readystate===XMLHttpRequest.DONE){
+if(request.readyState===XMLHttpRequest.DONE){
 //Take some action
 if(request.state===200){
 	var counter = request.responceText;
