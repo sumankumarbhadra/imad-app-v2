@@ -59,15 +59,12 @@ function createTemplate(data){
 		;
 	return htmltemplate;
 }
+var counter=0;
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+   counter=counter+1;
 });
- var counter=0;
- app.get('/counter',function(req,res){
-	 counter=counter+1;
-	 res.send(counter.toString());
- });
-
+ 
 var likecounter=0;
  app.get('/likes',function(req,res){
 	 likecounter=likecounter+1;
