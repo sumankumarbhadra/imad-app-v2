@@ -11,6 +11,8 @@
        count = <p id="display"></p>
         <script>
             var count=0;
+            app.get('/test',function(req,res){
+	        count=count+1;
             document.getElementById("display").innerHTML = count.toString();
         </script>
         
