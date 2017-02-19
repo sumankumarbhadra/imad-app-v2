@@ -4,7 +4,7 @@ console.log('Loaded!');
 //counter code 
 var button = document.getElementById('like');
 
-button.onclick = function(){
+button.onclick=function(){
 
 //create request by id
 var request = new XMLHttpRequest();
