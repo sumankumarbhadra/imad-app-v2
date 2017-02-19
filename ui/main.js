@@ -2,6 +2,7 @@ console.log('Loaded!');
 // code for likes
 
 //counter code 
+var likecounter = 0;
 var button = document.getElementById('like');
 
 button.onclick=function(){
