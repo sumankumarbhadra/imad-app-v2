@@ -1,4 +1,4 @@
-
+console.log('Loaded!');
 // code for likes
 /*
 //counter code 
