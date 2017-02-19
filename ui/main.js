@@ -29,7 +29,7 @@ request.send(null);
 };
 //counter code 
  
-{
+
 
 //create request by id
 var request = new XMLHttpRequest();
@@ -51,5 +51,5 @@ if(request.State==200){
 //Make request
 request.open('GET','http://sumankumarbhadra.imad.hasura-app.io/',true);
 request.send(null);
-}
+
 
