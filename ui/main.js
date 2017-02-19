@@ -8,7 +8,7 @@ button.onclick=function(){
     counter=counter+1;
     var span = document.getElementById('likes');
 	span.innerHTML = likecounter.toString();
-}
+};
 
 //create request by id
 /*var request = new XMLHttpRequest();
