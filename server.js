@@ -64,7 +64,7 @@ app.get('/', function (req, res) {
 });
  var count1=0;
  app.get('/counter',function(req,res){
-	 count1=count+1;
+	 count1=count1+1;
 	 res.send(count1.tostring());
  });
 
