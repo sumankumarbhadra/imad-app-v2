@@ -68,6 +68,11 @@ app.get('/', function (req, res) {
 	 res.send(counter.toString());
  });
 
+var likecounter=0;
+ app.get('/likes',function(req,res){
+	 likecounter=likecounter+1;
+	 res.send(likecounter.toString());
+ });
 app.get('/articleone',function(req,res){
 	res.send(createTemplate(articleone));
 });
