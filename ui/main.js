@@ -40,8 +40,8 @@ if(request.readyState==XMLHttpRequest.DONE){
 //Take some action
 if(request.State==200){
 	var counter = request.responceText;
-	var p = document.getElementById('visiter');
-	p.innerHTML = counter.toString();
+	var span = document.getElementById('visiter');
+	span.innerHTML = counter.toString();
 	
 		}
 	}
