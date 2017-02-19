@@ -70,6 +70,11 @@ var likecounter=0;
 	 likecounter=likecounter+1;
 	 res.send(likecounter.toString());
  });
+ 
+ app.get('/test',function(req,res){
+	res.send(createTemplate(test));
+});
+ 
 app.get('/articleone',function(req,res){
 	res.send(createTemplate(articleone));
 });
