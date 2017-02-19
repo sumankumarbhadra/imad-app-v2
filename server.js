@@ -67,7 +67,7 @@ app.get('/', function (req, res) {
 	 count1=count+1;
 	 res.send(count1.tostring());
  });
- }
+
 app.get('/articleone',function(req,res){
 	res.send(createTemplate(articleone));
 });
