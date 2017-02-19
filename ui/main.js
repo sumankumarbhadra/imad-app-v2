@@ -13,7 +13,7 @@ button.onclick=function(){
 
  */
 
-var button = document.getElementById("c");
+var button = document.getElementById('c');
 
 button.onclick = function() {
     
@@ -26,7 +26,7 @@ button.onclick = function() {
           // take some action
           if (request.status === 200) {
               var likecounter = request.responseText;
-              var span = document.getElementById("display");
+              var span = document.getElementById('display');
               span.innerHTML = likecounter.toString();
           }
       }  
