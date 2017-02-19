@@ -72,7 +72,7 @@ var likecounter=0;
  });
  
  app.get('/test',function(req,res){
-	res.send(createTemplate(test));
+  res.sendFile(path.join(__dirname, 'ui', 'test.html'));
 });
  
 app.get('/articleone',function(req,res){
