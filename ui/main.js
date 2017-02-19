@@ -6,7 +6,7 @@ var likecounter = 0;
 var button = document.getElementById('like');
 
 button.onclick=function(){
-    counter=counter+1;
+    likecounter=likecounter+1;
     var span = document.getElementById('likes');
 	span.innerHTML = likecounter.toString();
 };
