@@ -5,9 +5,13 @@ console.log('Loaded!');
 var button = document.getElementById('like');
 
 button.onclick=function(){
+    counter=counter+1;
+    var span = document.getElementById('likes');
+	span.innerHTML = likecounter.toString();
+}
 
 //create request by id
-var request = new XMLHttpRequest();
+/*var request = new XMLHttpRequest();
 
 //capture the request and store in a variable
 request.onreadystatechange = function(){
@@ -29,7 +33,7 @@ request.send(null);
 };
 //counter code 
  
-
+*/
 
 //create request by id
 var request = new XMLHttpRequest();
