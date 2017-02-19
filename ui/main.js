@@ -41,9 +41,9 @@ request.onreadystatechange = function(){
 if(request.readyState==XMLHttpRequest.DONE){
 //Take some action
 if(request.State==200){
-	var counter = request.responceText;
+	var likecounter = request.responceText;
 	var span = document.getElementById('likes');
-	span.innerHTML = counter.toString();
+	span.innerHTML = likecounter.toString();
 	
 		}
 	}
