@@ -2,10 +2,12 @@ body {
     font-family: sans-serif;
     background-color: lightgrey;
     margin-top: 75px;
+	height:720px;
+	width: 1280px;
 }
 
-.center {
-    text-align: center;
+.right {
+    text-align:right;
 }
 
 .text-big {
@@ -15,8 +17,152 @@ body {
 .bold {
     font-weight: bold;
 }
+.div1{
+	left: 0px;
+	top: 100px;
+	width:400px;
+	height:500px;
+	position: absolute;
+	
+	
+}
+.imglogo{
+	
+	margin-top: 20px;
+	margin-left: 20px;
+	width:100px;
+	height:100px;
+	position: relative;
+}
+ 
+#div2{
+	left: 920px;
+	position: absolute;
+	width: 360px;
+}
+.img{
+	background-image: url(suman1.jpg);
+	background-size: 500px 620px;
+	top: 100px;
+	left:400px;
+	width:500px;
+	height:620px;
+	align-items:center;
+	position: absolute;
+}
 
-.img-medium {
-    height: 200px;
+.img:hover{
+	background-image: url(suman2.jpg);
+	background-size: 500px 620px;
+	top: 100px;
+	left:400px;
+	width:500px;
+	height:620px;
+	align-content: center;
+}
+ 
+#topbar{
+	background: blue;
+	background: -webkit-linear-gradient(left top,blue, white);
+	background: -o-linear-gradient(bottom right, blue, white);
+	background: -moz-linear-gradient(bottom right, blue, white);
+	background: linear-gradient(to bottom right, blue, white);
+	top:0px;
+	width:1280px;
+	height:100px;
+	position: absolute;
+}
+#bottombar{
+	background-color: #000000;
+	top: 720px;
+	width:1280px;
+	height:100px;
+	position:absolute;
+}
+#logo{
+	margin-top: 8px;
+	margin-left: 8px;
+	height: 68px;
+	width: 68px;
+	position: absolute;
+	
+}
+#nptellogo{
+	margin-top: 8px;
+	margin-left: 100px;
+	position: absolute;
+}
+#name{
+	margin-top:16px;
+	margin-left: 600px;
+	position: absolute;
+	font-size: 60px;
+}
+
+.heart{
+    position: relative;
+    width: 100px;
+    height: 90px;
+    float: left;
+	cursor: pointer;
+	
+}
+.heart:before,
+.heart:after{
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: #fc2e5a;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+.heart:after{
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+.comment{
+	height: 100px;
+	width: 300px;
+	margin-left: 20px;
+	position: relative;
+	
+}
+
+.button1 {
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 28px;
+  padding: 10px;
+  height:"60";
+  width:"60";
+  transition: all 0.5s;
+  cursor: pointer;	
+  margin-left:20px;
+}
+
+.button1:hover span{
+	resize: both"60";
 }
 
