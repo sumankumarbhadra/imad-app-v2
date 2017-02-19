@@ -21,7 +21,7 @@ var articleone={
 		<p> This is my 1st artical.This is my 1st artical .This is my 1st artical
 		This is my 1st artical.This is my 1st artical.This is my 1st artical.
 		This is my 1st artical.</p>`
-}
+};
 function createTemplate(data){
 	var title=data.title;	
 	var date=data.date;
