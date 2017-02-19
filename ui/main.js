@@ -12,7 +12,7 @@ button.onclick=function(){
 };
 
  
-/*
+
 //create request by id
 var request = new XMLHttpRequest();
 
@@ -21,9 +21,9 @@ request.onreadystatechange = function(){
 if(request.readyState===XMLHttpRequest.DONE){
 //Take some action
 if(request.state===200){
-	var counter = request.responceText;
-	var span = document.getElementById('visiter');
-	span.innerHTML = counter.toString();
+	var count = request.responceText;
+	var span = document.getElementById('display');
+	span.innerHTML = count.toString();
 	
 		}
 	}
@@ -31,7 +31,7 @@ if(request.state===200){
 };
 
 //Make request
-request.open('GET','http://sumankumarbhadra.imad.hasura-app.io/',true);
+request.open('GET','http://sumankumarbhadra.imad.hasura-app.io/test',true);
 request.send(null);
 
-*/
+
