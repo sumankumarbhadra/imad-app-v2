@@ -51,7 +51,7 @@ console.log('Loaded!');
         if(request.readyState == 4 && request.status==200 )
         { 
              var comment =request.responseText;
-             comment= JSON.parse(name);
+             comment= JSON.parse(comment);
              var list = '';
              for(var i = 0;i<name.length;i++)
              {list+='<li>'+name[i]+'<li>';
