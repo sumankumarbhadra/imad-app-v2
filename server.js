@@ -80,6 +80,7 @@ app.get('/submit-comment',function(req,res){
     var comment = req.quary.comment;
     
     comments.push(comment);
+    res.send(comments);
 });
 app.get('/test',function(req,res){
   res.sendFile(path.join(__dirname, 'ui', 'test.html'));
