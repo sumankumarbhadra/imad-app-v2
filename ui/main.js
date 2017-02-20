@@ -16,7 +16,7 @@ console.log('Loaded!');
         
      };
     
-    request.open('GET',"/likes",true);
+    request.open('GET',"http://sumankumarbhadra.imad.hasura-app.io/likes",true);
     request.send(null);
    };
 
