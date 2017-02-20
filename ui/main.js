@@ -58,7 +58,7 @@ console.log('Loaded!');
                  list+='<li>'+name[i]+'<li>';
              }
              var ul=document.getElementById("comments");
-             ul.innerHTML = list;
+             ul.innerHTML ="f" list;
             
         }
         
