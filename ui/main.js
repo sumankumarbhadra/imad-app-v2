@@ -1,6 +1,6 @@
 console.log('Loaded!');
 var button=document.getElementById("c");
- b.onclick= function()
+ button.onclick= function()
     {
       var request= new XMLHttpRequest();
     
