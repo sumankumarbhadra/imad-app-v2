@@ -6,7 +6,7 @@ console.log('Loaded!');
     
       request.onreadystatechange=function()
       {
-        if(request.readyState === XMLHttpRequest.DONE && request.status===200 )
+        if(request.readyState == 4 && request.status==200 )
         { 
              var counter =request.responseText;
              var span=document.getElementById("visiter");
