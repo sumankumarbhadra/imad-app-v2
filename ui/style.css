@@ -101,6 +101,12 @@ p{
 	position: absolute;
 	font-size: 60px;
 }
+#like_count{
+    margin-top:8px;
+	margin-left: 1150px;
+	position: absolute;
+ 
+}
 
 #like {
    
