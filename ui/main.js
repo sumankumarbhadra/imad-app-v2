@@ -1,18 +1,5 @@
 console.log('Loaded!');
-// code for likes
-/*
-//counter code 
-var likecounter = 0;
-var button = document.getElementById('like');
-
-button.onclick=function(){
-    likecounter=likecounter+1;
-    var span = document.getElementById('likes');
-	span.innerHTML = likecounter.toString();
-};
-
- */
-
+ 
 var button = document.getElementById('c');
 
 button.onclick = function() {
@@ -34,7 +21,7 @@ button.onclick = function() {
     };
     
     // make the request
-    request.open('GET', 'http://sumankumarbhadra.imad.hasura-app.io/likes', true);
+    request.open('GET', '/likes', true);
     request.send(null);
 };
 
