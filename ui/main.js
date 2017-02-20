@@ -8,7 +8,7 @@ console.log('Loaded!');
       {
         if(request.readyState==4 && request.status==200 )
         { 
-             var counter =request.responseText;
+             var likecounter =request.responseText;
              var span=document.getElementById("d");
              span.innerHTML=" visitor count: "+likecounter;
             
