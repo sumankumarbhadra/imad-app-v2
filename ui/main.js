@@ -56,7 +56,7 @@ console.log('Loaded!');
              for(var i = 0;i<name.length;i++)
              {list+='<li>'+name[i]+'<li>';
              }
-             var ui=document.getElementById("comments");
+             var ul=document.getElementById("comments");
              ul.innerHTML = list;
             
         }
