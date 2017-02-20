@@ -8,8 +8,13 @@
         <script src="/ui/main.js"></script>
     </head>
     <body>
-        <button id="c">click</button>
+        <button onclick=function() id="c">click</button>
        count = <span id="d"></span>
-        
+        <script>
+        function(){
+             request.open('GET',"/likes",true);
+             request.send(null);
+             }
+        </script>
     </body>
 </html>
