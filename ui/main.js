@@ -1,5 +1,5 @@
 console.log('Loaded!');
- vra b=document.getElementById("c");
+var button=document.getElementById("c");
  b.onclick= function()
     {
       var request= new XMLHttpRequest();
