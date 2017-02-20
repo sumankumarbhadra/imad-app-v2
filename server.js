@@ -77,10 +77,10 @@ var counter=0;
 
 var comments = [];
 app.get('/submit-comment',function(req,res){
-    var comment = req.quary.comment;
+    var comment = req.query.comment;
     
     comments.push(comment);
-    res.send(comments);
+    res.send(JSON.stringify(comments));
 });
 app.get('/test',function(req,res){
   res.sendFile(path.join(__dirname, 'ui', 'test.html'));
