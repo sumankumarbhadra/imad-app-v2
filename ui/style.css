@@ -111,7 +111,7 @@ p{
     
 }
 
-#like :hover {
+#like:hover {
     font-size: 80px;
     color:red;
 }
