@@ -59,23 +59,24 @@ function createTemplate(data){
 		;
 	return htmltemplate;
 }
-var counter=0;
+
 app.get('/', function (req, res) {
-    counter=counter+1;
     res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
  
-var likecounter=0;
- app.get('/likes',function(req,res){
-	 likecounter=likecounter+1;
-	 res.send(likecounter.toString());
+var counter=0;
+ app.get('/counter',function(req,res){
+	 likecounter=counter+1;
+	 res.send(counter.toString());
  });
- var count=0;
- app.get('/test',function(req,res){
-  res.sendFile(path.join(__dirname, 'ui', 'test.html'));
-  count=count+1;
+ var likes=0;
+ app.get('/likes',function(req,res){
+ likes=likes+1;
+ res.send(likes.toString());
 });
- 
+app.get('/test',function(req,res){
+  res.sendFile(path.join(__dirname, 'ui', 'test.html'));
+});
 app.get('/articleone',function(req,res){
 	res.send(createTemplate(articleone));
 });
