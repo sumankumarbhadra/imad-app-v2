@@ -62,7 +62,7 @@ console.log('Loaded!');
         }
         
      };
-    var commentInout = document.getElementById('comment');
+    var commentInput = document.getElementById('comment');
     var comment = commentInput.value;
     request.open('GET',"/submit-comment?comment="+comment,true);
     request.send(null);
