@@ -25,7 +25,7 @@ console.log('Loaded!');
 
 console.log('Loaded!');
  var b=document.getElementById("c");
- b.onmouseout= function()
+ c.onclick= function()
     {
       var request= new XMLHttpRequest();
     
