@@ -33,9 +33,9 @@ console.log('Loaded!');
       {
         if(request.readyState == 4 && request.status==200 )
         { 
-             var counter =request.responseText;
+             var likes =request.responseText;
              var span=document.getElementById("display");
-             span.innerHTML=counter;
+             span.innerHTML=likes;
             
         }
         
