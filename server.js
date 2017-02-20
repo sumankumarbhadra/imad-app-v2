@@ -74,6 +74,13 @@ var counter=0;
  likes=likes+1;
  res.send(likes.toString());
 });
+
+var comments = [];
+app.get('/comment',function(req,res){
+    var comment = req.quary.name;
+    
+    comments.push(comment);
+});
 app.get('/test',function(req,res){
   res.sendFile(path.join(__dirname, 'ui', 'test.html'));
 });
