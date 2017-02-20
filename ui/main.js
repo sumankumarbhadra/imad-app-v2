@@ -53,12 +53,12 @@ console.log('Loaded!');
              var comment =request.responseText;
              comment= JSON.parse(comment);
              var list = '';
-             for(var i = 0;i<name.length;i++)
+             for(var i = 0;i<comment.length;i++)
              {
-                 list+='<li>'+name[i]+'<li>';
+                 list+='<li>'+comment[i]+'<li>';
              }
              var ul=document.getElementById("comments");
-             ul.innerHTML ="f" +list;
+             ul.innerHTML =list;
             
         }
         
