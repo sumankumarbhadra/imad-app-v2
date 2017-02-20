@@ -1,6 +1,6 @@
 console.log('Loaded!');
  
- window.onliad= function()
+ window.onload= function()
     {
       var request= new XMLHttpRequest();
     
