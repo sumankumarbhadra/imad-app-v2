@@ -24,7 +24,7 @@ console.log('Loaded!');
 
 window.onload=function(){
 console.log('Loaded!');
- var b=document.getElementById("c");
+ var b=document.getElementById("like");
  b.onclick= function()
     {
       var request= new XMLHttpRequest();
@@ -34,7 +34,7 @@ console.log('Loaded!');
         if(request.readyState == 4 && request.status==200 )
         { 
              var likes =request.responseText;
-             var span=document.getElementById("d");
+             var span=document.getElementById("likes");
              span.innerHTML="likes"+likes;
             
         }
