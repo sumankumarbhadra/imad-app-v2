@@ -23,7 +23,6 @@ console.log('Loaded!');
 //code for like count
 
 window.onload=function(){
-console.log('Loaded!');
  var b=document.getElementById("like");
  b.onclick= function()
     {
