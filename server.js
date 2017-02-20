@@ -77,7 +77,7 @@ var counter=0;
 
 var comments = [];
 app.get('/comment',function(req,res){
-    var comment = req.quary.name;
+    var comment = req.quary.comment;
     
     comments.push(comment);
 });
