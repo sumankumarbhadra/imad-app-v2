@@ -65,11 +65,11 @@ p{
 }
  
 #topbar{
-	background: blue;
-	background: -webkit-linear-gradient(left top,blue, white);
-	background: -o-linear-gradient(bottom right, blue, white);
-	background: -moz-linear-gradient(bottom right, blue, white);
-	background: linear-gradient(to bottom right, blue, white);
+	background: #1c3377;
+	background: -webkit-linear-gradient(left top,#1c3377, white);
+	background: -o-linear-gradient(bottom right, #1c3377, white);
+	background: -moz-linear-gradient(bottom right, #1c3377, white);
+	background: linear-gradient(to bottom right, #1c3377e, white);
 	top:0px;
 	width:1280px;
 	height:100px;
@@ -112,8 +112,7 @@ p{
 }
 
 #like:hover {
-    font-size: 80px;
-    color:red;
+    color:#d60880;
 }
 .comment{
 	height: 100px;
