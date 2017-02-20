@@ -35,7 +35,7 @@ console.log('Loaded!');
         { 
              var likes =request.responseText;
              var span=document.getElementById("d");
-             span.innerHTML=likes;
+             span.innerHTML="likes"+likes;
             
         }
         
