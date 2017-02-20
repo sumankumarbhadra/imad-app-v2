@@ -54,7 +54,8 @@ console.log('Loaded!');
              comment= JSON.parse(comment);
              var list = '';
              for(var i = 0;i<name.length;i++)
-             {list+='<li>'+name[i]+'<li>';
+             {
+                 list+='<li>'+name[i]+'<li>';
              }
              var ul=document.getElementById("comments");
              ul.innerHTML = list;
