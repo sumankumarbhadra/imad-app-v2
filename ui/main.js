@@ -16,7 +16,7 @@ console.log('Loaded!');
         
      };
     
-    request.open('GET',"/",true);
+    request.open('GET',"/likes",true);
     request.send(null);
    };
 
