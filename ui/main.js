@@ -25,7 +25,7 @@ console.log('Loaded!');
 
 console.log('Loaded!');
  var b=document.getElementById("c");
- c.onclick= function()
+ b.onclick= function()
     {
       var request= new XMLHttpRequest();
     
