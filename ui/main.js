@@ -24,8 +24,8 @@ console.log('Loaded!');
 
 
 console.log('Loaded!');
- 
- window.onload= function()
+ var b=document.getElementById("c");
+ b.onmouseout= function()
     {
       var request= new XMLHttpRequest();
     
