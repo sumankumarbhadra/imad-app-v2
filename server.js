@@ -106,12 +106,7 @@ app.get('/ui/suman1.jpg', function (req, res) {
 app.get('/ui/suman2.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'suman2.jpg'));
 });
-app.get('/ui/wapplogo.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'wapplogo.png'));
-});
-app.get('/ui/g+logo.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'g+logo.png'));
-});
+ 
 app.get('/ui/twitterlogo.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'twitterlogo.png'));
 });
