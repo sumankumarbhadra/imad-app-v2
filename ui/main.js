@@ -34,7 +34,7 @@ console.log('Loaded!');
         if(request.readyState == 4 && request.status==200 )
         { 
              var likes =request.responseText;
-             var span=document.getElementById("display");
+             var span=document.getElementById("d");
              span.innerHTML=likes;
             
         }
