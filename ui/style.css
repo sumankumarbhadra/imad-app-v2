@@ -43,26 +43,6 @@ p{
 	position: absolute;
 	width: 360px;
 }
-.img{
-	background-image: url(suman1.jpg);
-	background-size: 500px 620px;
-	top: 100px;
-	left:400px;
-	width:500px;
-	height:620px;
-	align-items:center;
-	position: absolute;
-}
-
-.img:hover{
-	background-image: url(suman2.jpg);
-	background-size: 500px 620px;
-	top: 100px;
-	left:400px;
-	width:500px;
-	height:620px;
-	align-content: center;
-}
  
 #topbar{
 	background: #1c3377;
