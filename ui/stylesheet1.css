@@ -1,0 +1,103 @@
+body {margin: 0;}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgray;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #993BC3;}
+
+ul.topnav li a.active {background-color:#3FE193;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+.cont_div{
+	position: absolute;
+	top: 10%;
+	left:0%;
+	right: 0%;
+	
+}
+#img{
+	height: 300px;
+	width: 230px;
+	background-image:url(http://sumankumarbhadra.imad.hasura-app.io/ui/suman1.jpg);
+	background-size:cover;
+	top: 20%;
+	left: 20%;
+	position: absolute;
+}
+#img:hover{
+	height: 300px;
+	width: 230px;
+	background-image:url(http://sumankumarbhadra.imad.hasura-app.io/ui/suman2.jpg);
+	background-size:cover;
+	top: 20%;
+	left: 20%;
+	position: absolute;
+	
+}
+#prof{
+	top:20em;
+	left: 20%;
+	position: absolute;
+}
+#imglogo1{
+	height: 20%;
+	left:40%;
+	position:absolute;
+}
+#imglogo2{
+	height: 20%;
+	left:50%;
+	position:absolute;
+}
+#imglogo3{
+	height: 20%;
+	left:60%;
+	position:absolute;
+}
+.button1 {
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 28px;
+  height:60px;
+  width:110px;
+  transition: all 0.5s;
+  cursor: pointer;	
+  margin-left:20px;
+  color: #B759B9;
+	background-color: #FFFFFF
+}
+
+.button1:hover span{
+	resize: both"60";
+}
+#com_div{
+	left: 10%;
+	font-size: 25px;
+	position: relative;
+	
+}
+textarea{
+	height:10em;
+	width: 20em;
+}
+	 
