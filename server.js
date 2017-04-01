@@ -119,6 +119,9 @@ app.get('/ui/linkedin_icon.png', function (req, res) {
 app.get('/ui/nptel-logo.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'nptel-logo.png'));
 });
+app.get('/ui/content.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'content.html'));
+});
 
 
 
