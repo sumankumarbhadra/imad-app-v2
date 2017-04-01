@@ -122,6 +122,9 @@ app.get('/ui/nptel-logo.png', function (req, res) {
 app.get('/ui/content.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'content.html'));
 });
+app.get('/ui/stylesheet1.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'stylesheet1.css'));
+});
 
 
 
