@@ -2,6 +2,148 @@ body {
     font-family: sans-serif;
     background-color: lightgray;
 	height:100%;
+	left 0px;
+	right: 0px;
+	position: fixed;
+}
+p{
+  text-align: center;
+}
+
+.right {
+    text-align:right;
+}
+
+.text-big {
+    font-size: 300%;
+}
+
+.bold {
+    font-weight: bold;
+}
+.div1{
+	left: 0px;
+	top: 100px;
+	width:400px;
+	height:500px;
+	position: absolute;
+	
+	
+}
+#iframe{
+    height:100%;
+	left: 0px;
+	right: 0px;
+    bottom: 0%;
+	width: 100%;
+	top: 20%;
+	position: fixed;
+    
+}
+.imglogo{
+	
+	margin-top: 20px;
+	margin-left: 20px;
+	width:50px;
+	height:50px;
+	position: relative;
+}
+ 
+#div2{
+	left: 920px;
+	position: absolute;
+	width: 360px;
+}
+ 
+#topbar{
+	background: #1c3377;
+	background: -webkit-linear-gradient(left top,#1c3377, white);
+	background: -o-linear-gradient(bottom right, #1c3377, white);
+	background: -moz-linear-gradient(bottom right, #1c3377, white);
+	background: linear-gradient(to bottom right, #1c3377e, white);
+	top:0% !important;
+	left: 0px !important;
+	right: 0px !important;
+	height:20%;
+	position: fixed !important;
+}
+#bottombar{
+	background-color: #000000;
+	top: 720px;
+	width:1280px;
+	height:100px;
+	position:absolute;
+}
+#logo{
+	margin-top: 8px;
+	margin-left: 8px;
+	height: 68px;
+	width: 68px;
+	position: absolute;
+	
+}
+#nptellogo{
+	margin-top: 8px;
+	margin-left: 100px;
+	position: absolute;
+}
+#name{
+	margin-top:16px;
+	margin-left: 550px;
+	position: absolute;
+	font-size: 55px;
+}
+#like_count{
+    margin-top:8px;
+	margin-left: 1170px;
+	position: absolute;
+ 
+}
+
+#like {
+   
+    background:none;
+    color:#5b5a5b;
+    font-size: 60px;
+    border: none;
+    
+}
+
+#like:hover {
+    color:#d60880;
+}
+.comment{
+	height: 100px;
+	width: 300px;
+	margin-left: 20px;
+	position: relative;
+	
+}
+
+.button1 {
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 28px;
+  height:60px;
+  width:110px;
+  transition: all 0.5s;
+  cursor: pointer;	
+  margin-left:20px;
+}
+
+.button1:hover span{
+	resize: both"60";
+}
+
+.preload{
+    height:1px;
+    width:1px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: lightgray;
+	height:100%;
 	width:100%;
 }
 p{
@@ -127,8 +269,5 @@ p{
 	resize: both"60";
 }
 
-.preload{
-    height:1px;
-    width:1px;
-}
+ 
 
