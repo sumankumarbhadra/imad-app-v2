@@ -1,7 +1,10 @@
 console.log('Loaded!');
 //code for counter and comment
+var c;
+window.onload (c=c+1);
  
-window.onload = function()
+ 
+if(c==2)
     {
       var request= new XMLHttpRequest();
     
@@ -41,8 +44,7 @@ window.onload = function()
     request.send(null);
    };
    
-   if (window.location.href.match('content.html') !== null)
-   {
+    
     var submit=document.getElementById("submit");
     submit.onclick= function()
     {
@@ -70,7 +72,7 @@ window.onload = function()
     request.open('GET',"/submit-comment?comment="+comment,true);
     request.send(null);
    };
-   }
-   
+   c=c-2;
+    }
    };
 
