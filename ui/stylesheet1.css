@@ -18,9 +18,9 @@ ul.topnav li a {
     text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #993BC3;}
+ul.topnav li a:hover:not(.active){background-color: #993BC3;}
 
-ul.topnav li a:onclick:(.active){background-color:#3FE193;}
+ul.topnav li a.active{background-color:#3FE193 !important;}
 
 ul.topnav li.right {float: right;}
 
@@ -101,3 +101,99 @@ textarea{
 	width: 20em;
 }
 	 
+#art_table{
+	top:5em;
+	left: 5%;
+	right: 5%;
+	position: relative;
+	height: 100%;
+}
+#art_table tr{
+	height: 6em;
+}
+	
+#art_table td{
+	width: 15em;
+	
+}
+/*animation for colour change*/
+@-webkit-keyframes animation1 {
+    0%   {background-color: #191919;}
+    25%  {background-color: #FFF056;}
+    50%  {background-color: #5f2c7f;}
+    100% {background-color: #F3FAB6;}
+}
+@keyframes animation1 {
+    0%   {background-color: #191919;}
+    25%  {background-color: #FFF056;}
+    50%  {background-color: #5f2c7f;}
+    100% {background-color: #F3FAB6;}
+}
+@-webkit-keyframes animation21 {
+    0%   {background-color: #7D1935;}
+    25%  {background-color: #DFE2DB;}
+    50%  {background-color: #DF3D82;}
+    100% {background-color: #FFF056;}
+}
+@keyframes animation2 {
+    0%   {background-color: #7D1935;}
+    25%  {background-color: #DFE2DB;}
+    50%  {background-color: #DF3D82;}
+    100% {background-color: #FFF056;}
+}
+@-webkit-keyframes animation3 {
+    0%   {background-color: #C63D0F;}
+    25%  {background-color: #DE1B1B;}
+    50%  {background-color: #A8CD1B;}
+    100% {background-color: #DFE2DB;}
+}
+@keyframes animation3 {
+   	0%   {background-color: #C63D0F;}
+    25%  {background-color: #DE1B1B;}
+    50%  {background-color: #A8CD1B;}
+    100% {background-color: #DFE2DB;}
+}
+@-webkit-keyframes animation4 {
+    0%   {background-color: #191919;}
+    25%  {background-color: #59d2d6;}
+    50%  {background-color: #E44424;}
+	100% {background-color: #DE1B1B;}
+}
+@keyframes animation4 {
+    0%   {background-color: #191919;}
+    25%  {background-color: #59d2d6;}
+    50%  {background-color: #E44424;}
+	100% {background-color: #DE1B1B;}
+}
+#td1,#td10,#td12,#td11,#td8{
+	-webkit-animation-name: animation1; 
+    -webkit-animation-duration: 4s;  
+    -webkit-animation-iteration-count: infinite; 
+    animation-name: animation1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+#td3,#td6,#td13,#td19,#td16{
+	-webkit-animation-name: animation2; 
+    -webkit-animation-duration: 4s;  
+    -webkit-animation-iteration-count: infinite; 
+    animation-name: animation2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+#td4,#td20,#td14,#td17,#td2{
+	-webkit-animation-name: animation3; 
+    -webkit-animation-duration: 4s;  
+    -webkit-animation-iteration-count: infinite; 
+    animation-name: animation3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+#td7,#td9,#td15,#td5,#td18{
+	-webkit-animation-name: animation4; 
+    -webkit-animation-duration: 4s;  
+    -webkit-animation-iteration-count: infinite; 
+    animation-name: animation4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
