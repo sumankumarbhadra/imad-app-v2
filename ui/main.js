@@ -1,7 +1,7 @@
 console.log('Loaded!');
 //code for counter and comment
  
-$(document).ready=function()
+$(document).ready(function()
     {
       var request= new XMLHttpRequest();
     
@@ -69,5 +69,5 @@ $(document).ready=function()
     request.open('GET',"/submit-comment?comment="+comment,true);
     request.send(null);
    };
-   };
+   });
 
