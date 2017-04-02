@@ -1,7 +1,7 @@
 console.log('Loaded!');
 //code for counter and comment
  
-window.onload = function()
+window.onload("content.html") = function()
     {
       var request= new XMLHttpRequest();
     
