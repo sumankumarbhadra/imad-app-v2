@@ -1,7 +1,7 @@
 console.log('Loaded!');
 //code for counter and comment
  
-window.onload("content.html") = function()
+window.onload = function()
     {
       var request= new XMLHttpRequest();
     
@@ -41,7 +41,8 @@ window.onload("content.html") = function()
     request.send(null);
    };
    
-   
+   if (window.location.href.match('car-driving.html') !== null)
+   {
     var submit=document.getElementById("submit");
     submit.onclick= function()
     {
@@ -69,5 +70,7 @@ window.onload("content.html") = function()
     request.open('GET',"/submit-comment?comment="+comment,true);
     request.send(null);
    };
+   }
+   
    };
 
