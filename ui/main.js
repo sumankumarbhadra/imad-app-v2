@@ -41,7 +41,7 @@ window.onload = function()
     request.send(null);
    };
    
-   if (window.location.href.match('car-driving.html') !== null)
+   if (window.location.href.match('content.html') !== null)
    {
     var submit=document.getElementById("submit");
     submit.onclick= function()
