@@ -1,7 +1,6 @@
 console.log('Loaded!');
 //code for counter and comment
-var c;
-window.onload (c=c+1);
+ 
  
  
 window.onload = function()
