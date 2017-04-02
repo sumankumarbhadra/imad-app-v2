@@ -4,7 +4,7 @@ var c;
 window.onload (c=c+1);
  
  
-if(c==2)
+window.onload = function()
     {
       var request= new XMLHttpRequest();
     
@@ -44,7 +44,8 @@ if(c==2)
     request.send(null);
    };
    
-    
+    if(c==2)
+    {
     var submit=document.getElementById("submit");
     submit.onclick= function()
     {
