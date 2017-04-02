@@ -1,7 +1,7 @@
 console.log('Loaded!');
 //code for counter and comment
  
- window.onload= function()
+$(document).ready=function()
     {
       var request= new XMLHttpRequest();
     
@@ -43,7 +43,7 @@ console.log('Loaded!');
    
    
     var submit=document.getElementById("submit");
-    $("submit").onclick= function()
+    submit.onclick= function()
     {
       var request= new XMLHttpRequest();
     
