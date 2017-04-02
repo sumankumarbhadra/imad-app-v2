@@ -44,7 +44,7 @@ window.onload = function()
     request.send(null);
    };
    
-    if(c==2)
+    if (window.iframe.src.match('content.html') !== null)
     {
     var submit=document.getElementById("submit");
     submit.onclick= function()
@@ -73,7 +73,6 @@ window.onload = function()
     request.open('GET',"/submit-comment?comment="+comment,true);
     request.send(null);
    };
-   c=c-2;
     }
    };
 
