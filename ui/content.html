@@ -11,16 +11,27 @@
 <script>
 $(document).ready(function(){
 	$(document).ready(function(){
-        $("#div1").show();
+        $("#div3").show();
 		$("#div2").hide();
-    });
-    $("#li1").click(function(){
-        $("#div1").show();
-		$("#div2").hide();
+		$("#div1").hide();
+		 
     });
     $("#li2").click(function(){
+        $("#div1").show();
+		$("#div2").hide();
+		$("#div3").hide();
+		 
+    });
+    $("#li3").click(function(){
         $("#div2").show();
 		$("#div1").hide();
+		$("#div3").hide();
+		 
+    });
+	 $("#li1").click(function(){
+        $("#div3").show();
+		$("#div1").hide();
+		$("#div2").hide(); 
     });
 });
 </script>
@@ -75,7 +86,37 @@ $(document).ready(function(){
  </div>
  
  <div class="cont_div" id="div3">
- 	
+ 	<table id="art_table">
+ 		 
+ 		<tr>
+ 			<td class="td" id="td1">suman</td>
+ 			<td class="td" id="td2">suman</td>
+ 			<td class="td" id="td3">suman</td>
+ 			<td class="td" id="td4">suman</td>
+ 			<td class="td" id="td5">suman</td>
+ 		</tr>
+ 		<tr>
+ 			<td class="td" id="td6">suman</td>
+ 			<td class="td" id="td7">suman</td>
+ 			<td class="td" id="td8">suman</td>
+ 			<td class="td" id="td9">suman</td>
+ 			<td class="td" id="td10">suman</td>
+ 		</tr>
+ 		<tr>
+ 			<td class="td" id="td11">suman</td>
+ 			<td class="td" id="td12">suman</td>
+ 			<td class="td" id="td13">suman</td>
+ 			<td class="td" id="td14">suman</td>
+ 			<td class="td" id="td15">suman</td>
+ 		</tr>
+ 		<tr>
+ 			<td class="td" id="td16">suman</td>
+ 			<td class="td" id="td17">suman</td>
+ 			<td class="td" id="td18">suman</td>
+ 			<td class="td" id="td19">suman</td>
+ 			<td class="td" id="td20">suman</td>
+ 		</tr>
+ 	</table>
  </div>
 
  
